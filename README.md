@@ -7,14 +7,15 @@
 
 ## Requisitos
 - Windows + `cmd`
-- Python 3.10+ (recomendado usar `py -3`)
+- Python 3.10+ (recomendado usar `py -3`) (IMPORTANTE, al instalar phython, hay que activar el path, es decirle que si al instalador cuando os pregunte)
 - Brazo conectado por USB serie (ej: `COM3`)
 
 
 ## Uso de teach_playback
 Script:
 primero de todos, comprobamos en que puerto se encuentra el robot conectado. 
-clic derecho dentro de la carpeta donde esta el scrip
+clicamos boton de windows + R
+escrbimos `cmd`
 abrir terminal
 escribimos `mode`
 tras unos segundos vemos, por ejemplo:
@@ -47,12 +48,10 @@ Estado para dispositivo CON:
 
 en este caso, vemos que es COM8
 
-por lo que escribimos
+iniciamos el run_teach_playback.com
 
+nos pregunta que puerto usar, en este caso seria escribir `COM8`
 
-```bat
-run_teach_playback.cmd COM8
-```
 esto crea un entorno virtual, con todas las dependecias y bibliotecas necesarias para ejecutar el scrip, que nos servira para programar el brazo, conociendo los puntos exactos de su trayetoria
 
 Controles principales:
