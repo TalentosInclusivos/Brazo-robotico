@@ -1,4 +1,5 @@
 # RoArm-M3 Python (Windows)
+informacion extra en la [wiki](https://github.com/TalentosInclusivos/Brazo-robotico/wiki/Wiki)
 
 ## Que incluye este repo
 - `teach_playback.py`: modo teach/playback por puerto serie.
